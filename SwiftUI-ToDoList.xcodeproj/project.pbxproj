@@ -37,6 +37,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79201AB3233F7EDA00DCCAE4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				79BDCDD7233ED7FB00594395 /* AppDelegate.swift */,
+				79BDCDD9233ED7FB00594395 /* SceneDelegate.swift */,
+				79BDCDDB233ED7FB00594395 /* ContentView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		79201AB4233F7EF800DCCAE4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				79BDCDDD233ED7FE00594395 /* Assets.xcassets */,
+				79BDCDE2233ED7FE00594395 /* LaunchScreen.storyboard */,
+				79BDCDE5233ED7FE00594395 /* Info.plist */,
+				79BDCDDF233ED7FE00594395 /* Preview Content */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		79BDCDCB233ED7FB00594395 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +77,8 @@
 		79BDCDD6233ED7FB00594395 /* SwiftUI-ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				79BDCDD7233ED7FB00594395 /* AppDelegate.swift */,
-				79BDCDD9233ED7FB00594395 /* SceneDelegate.swift */,
-				79BDCDDB233ED7FB00594395 /* ContentView.swift */,
-				79BDCDDD233ED7FE00594395 /* Assets.xcassets */,
-				79BDCDE2233ED7FE00594395 /* LaunchScreen.storyboard */,
-				79BDCDE5233ED7FE00594395 /* Info.plist */,
-				79BDCDDF233ED7FE00594395 /* Preview Content */,
+				79201AB4233F7EF800DCCAE4 /* Resource */,
+				79201AB3233F7EDA00DCCAE4 /* Source */,
 			);
 			path = "SwiftUI-ToDoList";
 			sourceTree = "<group>";
@@ -285,10 +301,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-ToDoList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-ToDoList/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = 7KK3FT686N;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-ToDoList/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-ToDoList/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,10 +321,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-ToDoList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-ToDoList/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = 7KK3FT686N;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-ToDoList/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-ToDoList/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
