@@ -2,15 +2,17 @@
 //  ContentView.swift
 //  SwiftUI-ToDoList
 //
-//  Created by 전건우 on 2019/09/28.
+//  Created by 전건우 on 2019/09/29.
 //  Copyright © 2019 Geonu Jeon. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var isChecked: Bool = false
+    
     var body: some View {
-        Text("Hello World")
+        ToDoListView(toDoList: mockList)
     }
 }
 
