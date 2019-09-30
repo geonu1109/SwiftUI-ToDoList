@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		79201AB9233F81AD00DCCAE4 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201AB8233F81AD00DCCAE4 /* ToDo.swift */; };
-		79201ABB233F82E300DCCAE4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201ABA233F82E300DCCAE4 /* ListView.swift */; };
+		79201ABB233F82E300DCCAE4 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201ABA233F82E300DCCAE4 /* ToDoListView.swift */; };
 		79201ABD233F844700DCCAE4 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201ABC233F844700DCCAE4 /* ToDoItemView.swift */; };
 		79201ABF23403F6E00DCCAE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201ABE23403F6E00DCCAE4 /* ContentView.swift */; };
 		79201AC323423C3E00DCCAE4 /* ToDoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201AC223423C3E00DCCAE4 /* ToDoRepository.swift */; };
+		79201AC72342C3CD00DCCAE4 /* MakeToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201AC62342C3CD00DCCAE4 /* MakeToDoView.swift */; };
 		79BDCDD8233ED7FB00594395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BDCDD7233ED7FB00594395 /* AppDelegate.swift */; };
 		79BDCDDA233ED7FB00594395 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BDCDD9233ED7FB00594395 /* SceneDelegate.swift */; };
 		79BDCDDE233ED7FE00594395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BDCDDD233ED7FE00594395 /* Assets.xcassets */; };
@@ -21,10 +22,11 @@
 
 /* Begin PBXFileReference section */
 		79201AB8233F81AD00DCCAE4 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
-		79201ABA233F82E300DCCAE4 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		79201ABA233F82E300DCCAE4 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		79201ABC233F844700DCCAE4 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 		79201ABE23403F6E00DCCAE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79201AC223423C3E00DCCAE4 /* ToDoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRepository.swift; sourceTree = "<group>"; };
+		79201AC62342C3CD00DCCAE4 /* MakeToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeToDoView.swift; sourceTree = "<group>"; };
 		79BDCDD4233ED7FB00594395 /* SwiftUI-ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ToDoList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BDCDD7233ED7FB00594395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79BDCDD9233ED7FB00594395 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,8 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				79201ABE23403F6E00DCCAE4 /* ContentView.swift */,
-				79201ABA233F82E300DCCAE4 /* ListView.swift */,
+				79201ABA233F82E300DCCAE4 /* ToDoListView.swift */,
 				79201ABC233F844700DCCAE4 /* ToDoItemView.swift */,
+				79201AC62342C3CD00DCCAE4 /* MakeToDoView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -198,10 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79201ABB233F82E300DCCAE4 /* ListView.swift in Sources */,
+				79201ABB233F82E300DCCAE4 /* ToDoListView.swift in Sources */,
 				79201ABD233F844700DCCAE4 /* ToDoItemView.swift in Sources */,
 				79201ABF23403F6E00DCCAE4 /* ContentView.swift in Sources */,
 				79BDCDD8233ED7FB00594395 /* AppDelegate.swift in Sources */,
+				79201AC72342C3CD00DCCAE4 /* MakeToDoView.swift in Sources */,
 				79BDCDDA233ED7FB00594395 /* SceneDelegate.swift in Sources */,
 				79201AC323423C3E00DCCAE4 /* ToDoRepository.swift in Sources */,
 				79201AB9233F81AD00DCCAE4 /* ToDo.swift in Sources */,

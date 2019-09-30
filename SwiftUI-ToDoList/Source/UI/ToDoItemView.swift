@@ -45,7 +45,7 @@ struct ToDoItemView: View {
             }.onTapGesture {
                 self.isCompleted.toggle()
             }
-        }.padding()
+        }
     }
     
     init(model: ToDo) {

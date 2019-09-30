@@ -10,19 +10,22 @@ import SwiftUI
 
 struct ToDoListView: View {
     @State var toDoList: [ToDo]
+    @State var isAdding: Bool = false
     
     var body: some View {
         NavigationView {
             List(self.toDoList) { (toDo) in
                 ToDoItemView(model: toDo)
             }
-            .navigationBarTitle("할 일 목록")
-            .navigationBarItems(trailing: Button(action: {}) {
+            .navigationBarTitle("To Do List")
+            .navigationBarItems(trailing: Button(action: { self.isAdding = true }) {
                 Image(systemName: "plus")
                     .resizable()
                     .frame(width: 20, height: 20)
                     .foregroundColor(.accentColor)
             })
+        }.sheet(isPresented: $isAdding) {
+            MakeToDoView()
         }
     }
 }
